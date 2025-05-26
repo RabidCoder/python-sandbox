@@ -1,0 +1,6 @@
+name = input('Как вас зовут?  ')
+age = int(input('Введите Ваш возраст:  '))
+print(f'Привет, {name}! Через 5 лет тебе будет {age + 5}')
+print(type(name), type(age))
+print(f'Квадрат возраста: {age ** 2}')
+print(f'Остаток от деления возраста на 3: {age % 3}')
